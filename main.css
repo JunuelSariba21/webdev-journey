@@ -1,0 +1,104 @@
+.menu{
+    height: 50px;
+    position: fixed;
+    right: 0;
+    top:0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(95, 95, 95);
+}
+.inputSearch{
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.searchBtn{
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(184, 184, 255);
+    color: black;
+    font-weight: unset;
+}
+.searchBtn:hover{
+    background-color: rgb(184, 184, 255);
+    opacity: 0.7;
+}
+.searchBtn:active{
+    opacity: 0.9;
+}
+.right{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.body{
+    padding-top: 41px;
+}
+
+button{
+    background-color: rgb(77, 60, 60);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(11, 11, 53);
+}
+button:active{
+    opacity: 0.8;
+}
+.dashBoard{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+}
+.div1{
+    background-color: aqua;
+    width: 500px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.div2{
+    background-color: blue;
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+}
+.div3{
+    background-color: blueviolet;
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+}
+.div4{
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+}
+.div5{
+    background-color: rgb(58, 37, 5);
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+}
+.div6{
+    background-color: rgb(247, 188, 99);
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+}
